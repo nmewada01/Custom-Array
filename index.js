@@ -68,12 +68,12 @@ var a1 = new myArray(
 );
 
 
-a1.अंदर_जा("साक्षी");
-a1.अंदर_जा("मायरा");
-a1.हटजा();
-a1.सीधों_छापदे();
-a1.उलटो_छापदे();
-a1.आखिरी_छापदे();
-a1.लंबाई_छापदे();
+a1.अंदर_जा("साक्षी");        //my own push function
+a1.अंदर_जा("मायरा");        
+a1.हटजा();                 //my own pop function
+a1.सीधों_छापदे();            //my own print function
+a1.उलटो_छापदे();            //my own reverse print function
+a1.आखिरी_छापदे();           //my own top function
+a1.लंबाई_छापदे();             //my own length function
 
 console.log(a1);
